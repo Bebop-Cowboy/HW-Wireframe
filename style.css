@@ -1,4 +1,14 @@
 
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #333;
+    background: #ebebeb;
+    text-align: center;
+}
+
 nav {
 	padding: 20px;
 	margin-bottom: 20px;
@@ -7,75 +17,71 @@ nav {
 	text-align: center;
 }
 
-footer {
-	padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
-	background: #ebebeb;
-	text-align: center;
-}
-
-
-aside {
-	 margin: 20px;
-	 padding: 20px;
-	 width:  495px;
-  	 height: 495px;
-  	 background: #ebebeb;
-  	 float: right;
-  	 text-align: center;
-}
-
 
 body {
-	background-color: #777;
-	font-family: 'Arial', 'Helvetica Neue',Helvetica, sans-serif;
-	font-size: 18px;
+  background-color: #777;
+  font-family: 'Arial', 'Helvetica Neue',Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-header {
-  	padding: 20px;
-  	margin-bottom: 20px;
-  	color: #333;
-  	background: #ebebeb;
-  	text-align: center;
+aside {
+  width: 400px;
+  height: 350px;
+  background: #ebebeb;
+  float: right;
+  text-align: center;
 }
 
 section {
-	 margin: 20px;
-	 padding: 20px;
-	 width:  495px;
-  	 height: 495px;
-  	 background: #ebebeb;
-  	 float: right;
-  	 text-align: center;
+    width:  400px;
+    height: 350px;
+    background: #ebebeb;
+    float: left;
+    text-align: center;
 }
 
-#sec-1 {
-  	background-color: #ebebeb;
-  	width:90%;
-  	height: 50px;
-  	position:relative;
-  	margin-bottom:20px;
-  	margin-left:10px;
-  	bottom:0;
-  	padding:5
+#h-tag {
+    background-color: #ebebeb;
+    width:90%;
+    height: 50px;
+    position:relative;
+    margin-bottom:20px;
+    margin-left:10px;
+    bottom:0;
+    padding:5;
 }
 
-#sec-2 {
-  	background-color:#ebebeb;
-  	width:90%;
-  	height: 50px;
-  	position:relative;
+#para {
+    background-color:#ebebeb;
+    width:90%;
+    height: 50px;
+    position:relative;
+    margin-bottom:20px;
+    margin-left:10px;
+    bottom:0;
+    padding:5;
 }
 
 .article {
-  	background-color: #777;
-  	width:90%;
-  	height: 250px;
-  	position:relative;
-  	margin-bottom:30px;
-  	margin-left:10px;
-  	bottom:0;
-  	padding:5	
+    background-color: #777;
+    width:90%;
+    height: 250px;
+    position:relative;
+    margin-bottom:30px;
+    margin-left:10px;
+    bottom:0;
+    padding:5; 
+}
+
+#footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #333;
+	background: #ebebeb;
+	text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px; 
+
 }
